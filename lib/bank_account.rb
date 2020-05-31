@@ -23,7 +23,8 @@ class BankAccount
   end
   
   def close_account
-    remove_instance_variable
+    @status = "close"
+    @status
   end
   
 end
