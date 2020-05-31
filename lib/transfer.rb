@@ -3,7 +3,7 @@ class Transfer
   
   attr_accessor :transfer 
   
-  def initialize
+  def initialize(transfer)
     @transfer  = transfer 
   end
   
